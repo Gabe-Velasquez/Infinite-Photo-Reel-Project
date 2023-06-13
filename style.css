@@ -1,0 +1,58 @@
+html{
+
+}
+
+body{
+    margin: 0;
+    background-color: whitesmoke;
+    font-family: 'Bitter', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+/* loader */
+
+.loader{
+    position:fixed;
+    top: 0;
+    bottom:0;
+    left:0;
+    right: 0;
+    background: rgba(255,255,255,0.8);
+}
+
+.loader img{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Image Container */
+
+.image-container{
+    margin: 10px 30%;
+}
+
+.image-container img{
+    width: 100%;
+    margin-top: 4px;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: 1.5rem;
+    }
+
+    .image-container{
+        margin: 8px;
+    }
+}
